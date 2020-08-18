@@ -45,7 +45,7 @@ public class MainWindow extends JFrame {
 	private void init() {
         
 		this.setResizable(false);
-		this.setTitle("I can't believe Narancia's fucking dead");
+		this.setTitle("Untitled Chess Game");
 		
         JPanel testPanel = new JPanel();
         testPanel.setLayout(new BoxLayout(testPanel, 1));
