@@ -17,7 +17,7 @@ class StandardMovementManagerRookTest {
 	@Test
 	void rookCheckMoveSingleTest() {
 
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -45,7 +45,7 @@ class StandardMovementManagerRookTest {
 	@Test
 	void rookCheckMoveOutOfBoundsTest() {
 
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -71,7 +71,7 @@ class StandardMovementManagerRookTest {
 	@Test
 	void rookCheckMoveBlockedTest() {
 
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -93,7 +93,7 @@ class StandardMovementManagerRookTest {
 	@Test
 	void rookCheckMoveCaptureTest() {
 
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -114,7 +114,7 @@ class StandardMovementManagerRookTest {
 	@Test
 	void rookMoveSingleTest() {
 
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -149,7 +149,7 @@ class StandardMovementManagerRookTest {
 	@Test
 	void rookMoveBlockedTest() {
 
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -192,7 +192,7 @@ class StandardMovementManagerRookTest {
 	@Test
 	void rookMoveCaptureTest() {
 
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();

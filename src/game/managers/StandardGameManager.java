@@ -8,7 +8,21 @@ import game.entities.identities.StandardConstants;
 
 public class StandardGameManager extends GameManager {
 
-	public StandardGameManager() {
+	private static StandardGameManager instance = null;
+	
+	public static StandardGameManager getInstance() {
+		
+		if(instance == null) {
+			
+			instance = new StandardGameManager();
+			
+		}
+		
+		return instance;
+		
+	}
+	
+	private StandardGameManager() {
 		
 		super();
 		pm = new StandardPieceManager();

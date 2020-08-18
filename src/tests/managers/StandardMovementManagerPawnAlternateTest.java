@@ -17,7 +17,7 @@ class StandardMovementManagerPawnAlternateTest {
 	@Test
 	void pawnCheckFirstMoveSingleTest() {
 
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -34,7 +34,7 @@ class StandardMovementManagerPawnAlternateTest {
 	@Test
 	void pawnCheckFirstMoveBlockedByAllyTest() {
 
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -55,7 +55,7 @@ class StandardMovementManagerPawnAlternateTest {
 	@Test
 	void pawnCheckFirstMoveBlockedByOpponentTest() {
 
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -76,7 +76,7 @@ class StandardMovementManagerPawnAlternateTest {
 	@Test
 	void pawnCheckFirstMoveCaptureFailTest() {
 
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -101,7 +101,7 @@ class StandardMovementManagerPawnAlternateTest {
 	@Test
 	void pawnFirstMoveSingleTest() {
 
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -119,7 +119,7 @@ class StandardMovementManagerPawnAlternateTest {
 	@Test
 	void pawnAlternateFirstMoveSingleTest() {
 
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -137,7 +137,7 @@ class StandardMovementManagerPawnAlternateTest {
 	@Test
 	void pawnAfterFirstMoveFailTest() {
 
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -158,7 +158,7 @@ class StandardMovementManagerPawnAlternateTest {
 	@Test
 	void pawnCheckSecondMoveSingleTest() {
 
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -178,7 +178,7 @@ class StandardMovementManagerPawnAlternateTest {
 	@Test
 	void pawnCheckSecondMoveBlockedByAllyTest() {
 
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -201,7 +201,7 @@ class StandardMovementManagerPawnAlternateTest {
 	@Test
 	void pawnCheckSecondMoveBlockedByOpponentTest() {
 
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -224,7 +224,7 @@ class StandardMovementManagerPawnAlternateTest {
 	@Test
 	void pawnCheckSecondMoveCaptureSingleTest() {
 
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -244,7 +244,7 @@ class StandardMovementManagerPawnAlternateTest {
 	@Test
 	void pawnCheckSecondMoveCaptureBlockedTest() {
 
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -267,7 +267,7 @@ class StandardMovementManagerPawnAlternateTest {
 	@Test
 	void pawnCheckSecondMoveCaptureTest() {
 
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -290,7 +290,7 @@ class StandardMovementManagerPawnAlternateTest {
 	@Test
 	void pawnSecondMoveSingleTest() {
 
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -311,7 +311,7 @@ class StandardMovementManagerPawnAlternateTest {
 	@Test
 	void pawnSecondMoveBlockedByAllyTest() {
 
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -337,7 +337,7 @@ class StandardMovementManagerPawnAlternateTest {
 	@Test
 	void pawnSecondMoveBlockedByOpponentTest() {
 
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -362,7 +362,7 @@ class StandardMovementManagerPawnAlternateTest {
 	@Test
 	void pawnSecondMoveCaptureTest() {
 
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();

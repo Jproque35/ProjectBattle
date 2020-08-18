@@ -12,7 +12,7 @@ public class BSTManualTest {
 
 	public static void main(String[] args) {
 
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		

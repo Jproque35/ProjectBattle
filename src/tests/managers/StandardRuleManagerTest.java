@@ -19,7 +19,7 @@ class StandardRuleManagerTest {
 	@Test
 	void verifyCheckRookTest() {
 		
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		CheckmateManager rm = new StandardCheckmateManager(gm);
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
@@ -37,7 +37,7 @@ class StandardRuleManagerTest {
 	@Test
 	void verifyCheckBishopTest() {
 		
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		CheckmateManager rm = new StandardCheckmateManager(gm);
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
@@ -56,7 +56,7 @@ class StandardRuleManagerTest {
 	@Test
 	void verifyCheckQueenTest() {
 		
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		CheckmateManager rm = new StandardCheckmateManager(gm);
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
@@ -80,7 +80,7 @@ class StandardRuleManagerTest {
 	@Test
 	void verifyCheckKingTest() {
 		
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		CheckmateManager rm = new StandardCheckmateManager(gm);
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
@@ -104,7 +104,7 @@ class StandardRuleManagerTest {
 	@Test
 	void verifyCheckPawnTest() {
 		
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		CheckmateManager rm = new StandardCheckmateManager(gm);
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
@@ -130,7 +130,7 @@ class StandardRuleManagerTest {
 	@Test
 	void verifyRookCheckmateTest() {
 		
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		CheckmateManager rm = new StandardCheckmateManager(gm);
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
@@ -154,7 +154,7 @@ class StandardRuleManagerTest {
 	@Test
 	void verifyCheckmateBishopTest() {
 		
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		CheckmateManager rm = new StandardCheckmateManager(gm);
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
@@ -179,7 +179,7 @@ class StandardRuleManagerTest {
 	@Test
 	void verifyCheckmateQueenTest() {
 		
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		CheckmateManager rm = new StandardCheckmateManager(gm);
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
@@ -206,7 +206,7 @@ class StandardRuleManagerTest {
 	@Test
 	void verifyCheckmatePawnTest() {
 		
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		CheckmateManager rm = new StandardCheckmateManager(gm);
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();

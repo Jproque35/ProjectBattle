@@ -17,7 +17,7 @@ class StandardMovementManagerKnightTest {
 	@Test
 	void knightCheckMoveTest() {
 
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -40,7 +40,7 @@ class StandardMovementManagerKnightTest {
 	@Test
 	void knightCheckMoveBlockedTest() {
 
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -69,7 +69,7 @@ class StandardMovementManagerKnightTest {
 	@Test
 	void knightCheckMoveCaptureTest() {
 
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -98,7 +98,7 @@ class StandardMovementManagerKnightTest {
 	@Test
 	void knightMoveSingleTest() {
 
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -124,7 +124,7 @@ class StandardMovementManagerKnightTest {
 	@Test
 	void knightMoveBlockedTest() {
 
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -157,7 +157,7 @@ class StandardMovementManagerKnightTest {
 	@Test
 	void knightMoveCpautreTest() {
 
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();

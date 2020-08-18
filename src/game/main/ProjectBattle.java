@@ -9,7 +9,7 @@ import game.view.MainWindow;
 public class ProjectBattle {
 
 	public static void main(String[] args) {
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		MainWindow view = new MainWindow(gm);
 		gm.init(view);
 		//view.setVisible(true);

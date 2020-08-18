@@ -13,7 +13,7 @@ class StandardMovementManagerBishopTest {
 	@Test
 	void bishopCheckMoveSingleTest() {
 
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -41,7 +41,7 @@ class StandardMovementManagerBishopTest {
 	@Test
 	void bishopCheckMoveBlockedTest() {
 
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -63,7 +63,7 @@ class StandardMovementManagerBishopTest {
 	@Test
 	void bishopCheckMoveCaptureTest() {
 		
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -85,7 +85,7 @@ class StandardMovementManagerBishopTest {
 	@Test
 	void bishopMoveSingleTest() {
 
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -119,7 +119,7 @@ class StandardMovementManagerBishopTest {
 	@Test
 	void bishopMoveBlockedTest() {
 
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -161,7 +161,7 @@ class StandardMovementManagerBishopTest {
 	@Test
 	void bishopMoveCaptureTest() {
 
-		GameManager gm = new StandardGameManager();
+		GameManager gm = StandardGameManager.getInstance();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
