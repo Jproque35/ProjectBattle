@@ -15,7 +15,7 @@ class PieceManagerMultipleTest {
 	@Test
 	void addMultipleTest() {
 		
-		PieceManager p0manager = new StandardPieceManager();
+		PieceManager p0manager = StandardPieceManager.getInstance();
 		
 		String knightId0 = "p0_knight0";
 		GamePiece testKnight0 = new Knight(PlayerType.WHITE);
@@ -39,7 +39,7 @@ class PieceManagerMultipleTest {
 	@Test 
 	void getMultipleTest() {
 		
-		PieceManager p0manager = new StandardPieceManager();
+		PieceManager p0manager = StandardPieceManager.getInstance();
 		
 		String knightId0 = "p0_knight0";
 		GamePiece testKnight0 = new Knight(PlayerType.WHITE);
@@ -63,7 +63,7 @@ class PieceManagerMultipleTest {
 	@Test
 	void getRemoveAllMultipleTest() {
 		
-		PieceManager p0manager = new StandardPieceManager();
+		PieceManager p0manager = StandardPieceManager.getInstance();
 		
 		String knightId0 = "p0_knight0";
 		GamePiece testKnight0 = new Knight(PlayerType.WHITE);

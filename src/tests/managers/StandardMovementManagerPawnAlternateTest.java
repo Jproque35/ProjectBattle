@@ -16,6 +16,8 @@ class StandardMovementManagerPawnAlternateTest {
 
 	@Test
 	void pawnCheckFirstMoveSingleTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
@@ -33,6 +35,8 @@ class StandardMovementManagerPawnAlternateTest {
 	
 	@Test
 	void pawnCheckFirstMoveBlockedByAllyTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
@@ -54,6 +58,8 @@ class StandardMovementManagerPawnAlternateTest {
 	
 	@Test
 	void pawnCheckFirstMoveBlockedByOpponentTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
@@ -75,6 +81,8 @@ class StandardMovementManagerPawnAlternateTest {
 	
 	@Test
 	void pawnCheckFirstMoveCaptureFailTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
@@ -100,6 +108,8 @@ class StandardMovementManagerPawnAlternateTest {
 	
 	@Test
 	void pawnFirstMoveSingleTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
@@ -118,6 +128,8 @@ class StandardMovementManagerPawnAlternateTest {
 	
 	@Test
 	void pawnAlternateFirstMoveSingleTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
@@ -136,6 +148,8 @@ class StandardMovementManagerPawnAlternateTest {
 	
 	@Test
 	void pawnAfterFirstMoveFailTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
@@ -157,6 +171,8 @@ class StandardMovementManagerPawnAlternateTest {
 	
 	@Test
 	void pawnCheckSecondMoveSingleTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
@@ -177,6 +193,8 @@ class StandardMovementManagerPawnAlternateTest {
 	
 	@Test
 	void pawnCheckSecondMoveBlockedByAllyTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
@@ -200,6 +218,8 @@ class StandardMovementManagerPawnAlternateTest {
 	
 	@Test
 	void pawnCheckSecondMoveBlockedByOpponentTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
@@ -223,6 +243,8 @@ class StandardMovementManagerPawnAlternateTest {
 	
 	@Test
 	void pawnCheckSecondMoveCaptureSingleTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
@@ -243,6 +265,8 @@ class StandardMovementManagerPawnAlternateTest {
 	
 	@Test
 	void pawnCheckSecondMoveCaptureBlockedTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
@@ -266,6 +290,8 @@ class StandardMovementManagerPawnAlternateTest {
 	
 	@Test
 	void pawnCheckSecondMoveCaptureTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
@@ -289,6 +315,8 @@ class StandardMovementManagerPawnAlternateTest {
 	
 	@Test
 	void pawnSecondMoveSingleTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
@@ -310,6 +338,8 @@ class StandardMovementManagerPawnAlternateTest {
 	
 	@Test
 	void pawnSecondMoveBlockedByAllyTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
@@ -336,6 +366,8 @@ class StandardMovementManagerPawnAlternateTest {
 	
 	@Test
 	void pawnSecondMoveBlockedByOpponentTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
@@ -361,6 +393,8 @@ class StandardMovementManagerPawnAlternateTest {
 	
 	@Test
 	void pawnSecondMoveCaptureTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();

@@ -19,6 +19,8 @@ class StandardRuleManagerTest {
 	@Test
 	void verifyCheckRookTest() {
 		
+		TestFunctions.resetManagers();
+		
 		GameManager gm = new StandardGameManager();
 		CheckmateManager rm = new StandardCheckmateManager(gm);
 		PieceManager pm = gm.getPieceManager();
@@ -36,6 +38,8 @@ class StandardRuleManagerTest {
 
 	@Test
 	void verifyCheckBishopTest() {
+		
+		TestFunctions.resetManagers();
 		
 		GameManager gm = new StandardGameManager();
 		CheckmateManager rm = new StandardCheckmateManager(gm);
@@ -55,6 +59,8 @@ class StandardRuleManagerTest {
 
 	@Test
 	void verifyCheckQueenTest() {
+		
+		TestFunctions.resetManagers();
 		
 		GameManager gm = new StandardGameManager();
 		CheckmateManager rm = new StandardCheckmateManager(gm);
@@ -80,6 +86,8 @@ class StandardRuleManagerTest {
 	@Test
 	void verifyCheckKingTest() {
 		
+		TestFunctions.resetManagers();
+		
 		GameManager gm = new StandardGameManager();
 		CheckmateManager rm = new StandardCheckmateManager(gm);
 		PieceManager pm = gm.getPieceManager();
@@ -103,6 +111,8 @@ class StandardRuleManagerTest {
 
 	@Test
 	void verifyCheckPawnTest() {
+		
+		TestFunctions.resetManagers();
 		
 		GameManager gm = new StandardGameManager();
 		CheckmateManager rm = new StandardCheckmateManager(gm);
@@ -130,6 +140,8 @@ class StandardRuleManagerTest {
 	@Test
 	void verifyRookCheckmateTest() {
 		
+		TestFunctions.resetManagers();
+		
 		GameManager gm = new StandardGameManager();
 		CheckmateManager rm = new StandardCheckmateManager(gm);
 		PieceManager pm = gm.getPieceManager();
@@ -153,6 +165,8 @@ class StandardRuleManagerTest {
 
 	@Test
 	void verifyCheckmateBishopTest() {
+		
+		TestFunctions.resetManagers();
 		
 		GameManager gm = new StandardGameManager();
 		CheckmateManager rm = new StandardCheckmateManager(gm);
@@ -178,6 +192,8 @@ class StandardRuleManagerTest {
 
 	@Test
 	void verifyCheckmateQueenTest() {
+		
+		TestFunctions.resetManagers();
 		
 		GameManager gm = new StandardGameManager();
 		CheckmateManager rm = new StandardCheckmateManager(gm);
@@ -205,6 +221,8 @@ class StandardRuleManagerTest {
 
 	@Test
 	void verifyCheckmatePawnTest() {
+		
+		TestFunctions.resetManagers();
 		
 		GameManager gm = new StandardGameManager();
 		CheckmateManager rm = new StandardCheckmateManager(gm);

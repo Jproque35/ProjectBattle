@@ -10,11 +10,14 @@ import game.managers.BoardManager;
 import game.managers.GameManager;
 import game.managers.PieceManager;
 import game.managers.StandardGameManager;
+import game.managers.StandardPieceManager;
 
 class StandardBoardManagerTest {
 
 	@Test()
 	void getLengthTest() {
+		
+		TestFunctions.resetManagers();
 		
 		GameManager gm = new StandardGameManager();
 		BoardManager bm = gm.getBoardManager();
@@ -26,6 +29,8 @@ class StandardBoardManagerTest {
 	@Test()
 	void getLWidthTest() {
 		
+		TestFunctions.resetManagers();
+		
 		GameManager gm = new StandardGameManager();
 		BoardManager bm = gm.getBoardManager();
 		
@@ -35,6 +40,8 @@ class StandardBoardManagerTest {
 	
 	@Test
 	void containsEmpty() {
+		
+		TestFunctions.resetManagers();
 		
 		GameManager gm = new StandardGameManager();
 		BoardManager bm = gm.getBoardManager();
@@ -46,6 +53,8 @@ class StandardBoardManagerTest {
 	@Test
 	void getEmptyTes() {
 		
+		TestFunctions.resetManagers();
+		
 		GameManager gm = new StandardGameManager();
 		BoardManager bm = gm.getBoardManager();
 		
@@ -56,6 +65,8 @@ class StandardBoardManagerTest {
 	@Test
 	void removeEmptyTest() {
 		
+		TestFunctions.resetManagers();
+		
 		GameManager gm = new StandardGameManager();
 		BoardManager bm = gm.getBoardManager();
 		
@@ -65,6 +76,8 @@ class StandardBoardManagerTest {
 	
 	@Test
 	void addNotInPieceManagerTest() {
+		
+		TestFunctions.resetManagers();
 		
 		GameManager gm = new StandardGameManager();
 		BoardManager bm = gm.getBoardManager();
@@ -77,6 +90,8 @@ class StandardBoardManagerTest {
 	
 	@Test
 	void addSingleTest() {
+		
+		TestFunctions.resetManagers();
 		
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
@@ -95,6 +110,8 @@ class StandardBoardManagerTest {
 	@Test
 	void getSingleTest() {
 		
+		TestFunctions.resetManagers();
+		
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
@@ -106,6 +123,8 @@ class StandardBoardManagerTest {
 	
 	@Test
 	void removeSingleTest() {
+		
+		TestFunctions.resetManagers();
 		
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
@@ -121,6 +140,8 @@ class StandardBoardManagerTest {
 	
 	@Test
 	void updatePositionSingleTest() {
+		
+		TestFunctions.resetManagers();
 		
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
@@ -138,6 +159,8 @@ class StandardBoardManagerTest {
 	
 	@Test
 	void updatePositionOverriteTest() {
+		
+		TestFunctions.resetManagers();
 		
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
@@ -159,6 +182,8 @@ class StandardBoardManagerTest {
 	
 	@Test
 	void removeEnPassantTest() {
+		
+		TestFunctions.resetManagers();
 		
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();

@@ -16,6 +16,8 @@ class StandardMovementManagerRookTest {
 
 	@Test
 	void rookCheckMoveSingleTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
@@ -44,6 +46,8 @@ class StandardMovementManagerRookTest {
 	
 	@Test
 	void rookCheckMoveOutOfBoundsTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
@@ -70,6 +74,8 @@ class StandardMovementManagerRookTest {
 
 	@Test
 	void rookCheckMoveBlockedTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
@@ -92,6 +98,8 @@ class StandardMovementManagerRookTest {
 
 	@Test
 	void rookCheckMoveCaptureTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
@@ -113,6 +121,8 @@ class StandardMovementManagerRookTest {
 	
 	@Test
 	void rookMoveSingleTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
@@ -148,6 +158,8 @@ class StandardMovementManagerRookTest {
 	
 	@Test
 	void rookMoveBlockedTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
@@ -191,6 +203,8 @@ class StandardMovementManagerRookTest {
 	
 	@Test
 	void rookMoveCaptureTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();

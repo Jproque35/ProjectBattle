@@ -16,6 +16,8 @@ class StandardMovementManagerQueenTest {
 
 	@Test
 	void queenCheckMoveSingleTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
@@ -58,6 +60,8 @@ class StandardMovementManagerQueenTest {
 
 	@Test
 	void queenCheckMoveBlockedTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
@@ -92,6 +96,8 @@ class StandardMovementManagerQueenTest {
 
 	@Test
 	void queenCheckMoveCaptureTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();

@@ -12,6 +12,8 @@ class StandardMovementManagerBishopTest {
 
 	@Test
 	void bishopCheckMoveSingleTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
@@ -40,6 +42,8 @@ class StandardMovementManagerBishopTest {
 
 	@Test
 	void bishopCheckMoveBlockedTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
@@ -63,6 +67,8 @@ class StandardMovementManagerBishopTest {
 	@Test
 	void bishopCheckMoveCaptureTest() {
 		
+		TestFunctions.resetManagers();
+		
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
@@ -84,6 +90,8 @@ class StandardMovementManagerBishopTest {
 
 	@Test
 	void bishopMoveSingleTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
@@ -118,6 +126,8 @@ class StandardMovementManagerBishopTest {
 
 	@Test
 	void bishopMoveBlockedTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
@@ -160,6 +170,8 @@ class StandardMovementManagerBishopTest {
 
 	@Test
 	void bishopMoveCaptureTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();

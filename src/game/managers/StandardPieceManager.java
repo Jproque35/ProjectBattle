@@ -10,10 +10,33 @@ import game.entities.identities.PlayerType;
 
 public class StandardPieceManager implements PieceManager {
 
+	private static StandardPieceManager instance = null;
 	private HashMap<String, GamePiece> active;
 	private HashMap<String, GamePiece> inactive;
 	
-	public StandardPieceManager() {
+	public static StandardPieceManager getInstance() {
+		
+		if(instance == null) {
+			
+			instance = new StandardPieceManager();
+			
+		}
+		
+		return instance;
+		
+	}
+	
+	public static void resetInstance() {
+		
+		if(instance != null) {
+			
+			instance = null;
+			
+		}
+		
+	}
+	
+	private StandardPieceManager() {
 		
 		this.active = new HashMap<String, GamePiece>();
 		this.inactive = new HashMap<String, GamePiece>();

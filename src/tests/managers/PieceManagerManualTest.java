@@ -20,7 +20,7 @@ public class PieceManagerManualTest {
 		 * Instantiating the piece manager and pieces
 		 */
 		
-		PieceManager p0manager = new StandardPieceManager();
+		PieceManager p0manager = StandardPieceManager.getInstance();
 		
 		String knightId0 = "p0_knight0";
 		GamePiece testKnight0 = new Knight(PlayerType.WHITE);

@@ -18,7 +18,10 @@ class PieceManagerSingleTests {
 	@Test
 	void containsEmptyTest() {
 		
-		PieceManager p0manager = new StandardPieceManager();
+		StandardPieceManager.resetInstance();
+		
+		
+		PieceManager p0manager = StandardPieceManager.getInstance();
 		
 		assertEquals(p0manager.contains("p0_knight0"), false);
 		
@@ -27,7 +30,10 @@ class PieceManagerSingleTests {
 	@Test
 	void addSingleTest() {
 		
-		PieceManager p0manager = new StandardPieceManager();
+		StandardPieceManager.resetInstance();
+		
+		
+		PieceManager p0manager = StandardPieceManager.getInstance();
 		
 		GamePiece testKnight = new Knight(PlayerType.WHITE);
 		
@@ -39,7 +45,10 @@ class PieceManagerSingleTests {
 	@Test
 	void getEmptyTest() {
 		
-		PieceManager p0manager = new StandardPieceManager();
+		StandardPieceManager.resetInstance();
+		
+		
+		PieceManager p0manager = StandardPieceManager.getInstance();
 		
 		assertEquals(p0manager.get("Hail"), null);
 		
@@ -48,7 +57,10 @@ class PieceManagerSingleTests {
 	@Test
 	void getSingleTest() {
 		
-		PieceManager p0manager = new StandardPieceManager();
+		StandardPieceManager.resetInstance();
+		
+		
+		PieceManager p0manager = StandardPieceManager.getInstance();
 		
 		GamePiece testKnight = new Knight(PlayerType.WHITE);
 		String knightId = "p0_knight0";
@@ -61,7 +73,10 @@ class PieceManagerSingleTests {
 	@Test
 	void removeEmptyTest() {
 		
-		PieceManager p0manager = new StandardPieceManager();
+		StandardPieceManager.resetInstance();
+		
+		
+		PieceManager p0manager = StandardPieceManager.getInstance();
 		
 		assertEquals(p0manager.remove("Hail"), null);
 		
@@ -70,7 +85,10 @@ class PieceManagerSingleTests {
 	@Test
 	void removeSingleTest() {
 		
-		PieceManager p0manager = new StandardPieceManager();
+		StandardPieceManager.resetInstance();
+		
+		
+		PieceManager p0manager = StandardPieceManager.getInstance();
 		
 		GamePiece testKnight = new Knight(PlayerType.WHITE);
 		String knightId = "p0_knight0";
@@ -86,7 +104,10 @@ class PieceManagerSingleTests {
 	@Test
 	void removeGetSingleTest() {
 		
-		PieceManager p0manager = new StandardPieceManager();
+		StandardPieceManager.resetInstance();
+		
+		
+		PieceManager p0manager = StandardPieceManager.getInstance();
 		
 		GamePiece testKnight = new Knight(PlayerType.WHITE);
 		String knightId = "p0_knight0";
@@ -102,7 +123,9 @@ class PieceManagerSingleTests {
 	@Test
 	void initStatusEmptyTest() {
 		
-		PieceManager p0manager = new StandardPieceManager();
+		StandardPieceManager.resetInstance();
+		
+		PieceManager p0manager = StandardPieceManager.getInstance();
 		
 		assertEquals(p0manager.isActive("Hail"), false);
 		
@@ -111,7 +134,9 @@ class PieceManagerSingleTests {
 	@Test
 	void initStatusSingleTest() {
 		
-		PieceManager p0manager = new StandardPieceManager();
+		StandardPieceManager.resetInstance();
+		
+		PieceManager p0manager = StandardPieceManager.getInstance();
 		
 		GamePiece testKnight = new Knight(PlayerType.WHITE);
 		String knightId = "p0_knight0";
@@ -124,7 +149,10 @@ class PieceManagerSingleTests {
 	@Test
 	void activateSingleTest() {
 		
-		PieceManager p0manager = new StandardPieceManager();
+		StandardPieceManager.resetInstance();
+		
+		
+		PieceManager p0manager = StandardPieceManager.getInstance();
 		
 		GamePiece testKnight = new Knight(PlayerType.WHITE);
 		String knightId = "p0_knight0";
@@ -138,7 +166,10 @@ class PieceManagerSingleTests {
 	@Test
 	void getActivateSingleTest() {
 		
-		PieceManager p0manager = new StandardPieceManager();
+		StandardPieceManager.resetInstance();
+		
+		
+		PieceManager p0manager = StandardPieceManager.getInstance();
 		
 		GamePiece testKnight = new Knight(PlayerType.WHITE);
 		String knightId = "p0_knight0";
@@ -152,7 +183,10 @@ class PieceManagerSingleTests {
 	@Test
 	void deactivateSingleTest() {
 		
-		PieceManager p0manager = new StandardPieceManager();
+		StandardPieceManager.resetInstance();
+		
+		
+		PieceManager p0manager = StandardPieceManager.getInstance();
 		
 		GamePiece testKnight = new Knight(PlayerType.WHITE);
 		String knightId = "p0_knight0";
@@ -167,7 +201,10 @@ class PieceManagerSingleTests {
 	@Test
 	void getDeactivateSingleTest() {
 		
-		PieceManager p0manager = new StandardPieceManager();
+		StandardPieceManager.resetInstance();
+		
+		
+		PieceManager p0manager = StandardPieceManager.getInstance();
 		
 		GamePiece testKnight = new Knight(PlayerType.WHITE);
 		String knightId = "p0_knight0";
@@ -183,7 +220,10 @@ class PieceManagerSingleTests {
 	@Test
 	void addRemoveInitStatusSingleTest() {
 		
-		PieceManager p0manager = new StandardPieceManager();
+		StandardPieceManager.resetInstance();
+		
+		
+		PieceManager p0manager = StandardPieceManager.getInstance();
 		
 		GamePiece testKnight = new Knight(PlayerType.WHITE);
 		String knightId = "p0_knight0";
@@ -198,7 +238,10 @@ class PieceManagerSingleTests {
 	@Test
 	void addRemoveActivateSingleTest() {
 		
-		PieceManager p0manager = new StandardPieceManager();
+		StandardPieceManager.resetInstance();
+		
+		
+		PieceManager p0manager = StandardPieceManager.getInstance();
 		
 		GamePiece testKnight = new Knight(PlayerType.WHITE);
 		String knightId = "p0_knight0";
@@ -214,7 +257,10 @@ class PieceManagerSingleTests {
 	@Test
 	void addRemoveDeactivateSingleTest() {
 		
-		PieceManager p0manager = new StandardPieceManager();
+		StandardPieceManager.resetInstance();
+		
+		
+		PieceManager p0manager = StandardPieceManager.getInstance();
 		
 		GamePiece testKnight = new Knight(PlayerType.WHITE);
 		String knightId = "p0_knight0";
@@ -231,7 +277,10 @@ class PieceManagerSingleTests {
 	@Test
 	void getInactiveKeysEmptyTest() {
 		
-		PieceManager p0manager = new StandardPieceManager();
+		StandardPieceManager.resetInstance();
+		
+		
+		PieceManager p0manager = StandardPieceManager.getInstance();
 		
 		Set<String> inactiveKeys = p0manager.getInactiveKeys();
 		
@@ -242,7 +291,10 @@ class PieceManagerSingleTests {
 	@Test
 	void getInactiveKeysSingleTest() {
 		
-		PieceManager p0manager = new StandardPieceManager();
+		StandardPieceManager.resetInstance();
+		
+		
+		PieceManager p0manager = StandardPieceManager.getInstance();
 		
 		GamePiece testKnight = new Knight(PlayerType.WHITE);
 		String knightId = "p0_knight0";
@@ -258,7 +310,10 @@ class PieceManagerSingleTests {
 	@Test 
 	void getActiveKeysEmptyTest() {
 		
-		PieceManager p0manager = new StandardPieceManager();
+		StandardPieceManager.resetInstance();
+		
+		
+		PieceManager p0manager = StandardPieceManager.getInstance();
 		
 		Set<String> activeKeys = p0manager.getActiveKeys();
 		
@@ -269,7 +324,10 @@ class PieceManagerSingleTests {
 	@Test
 	void getActiveKeysSingleTest() {
 		
-		PieceManager p0manager = new StandardPieceManager();
+		StandardPieceManager.resetInstance();
+		
+		
+		PieceManager p0manager = StandardPieceManager.getInstance();
 		
 		GamePiece testKnight = new Knight(PlayerType.WHITE);
 		String knightId = "p0_knight0";

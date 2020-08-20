@@ -16,6 +16,8 @@ class StandardMovementManagerKnightTest {
 
 	@Test
 	void knightCheckMoveTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
@@ -39,6 +41,8 @@ class StandardMovementManagerKnightTest {
 	
 	@Test
 	void knightCheckMoveBlockedTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
@@ -68,6 +72,8 @@ class StandardMovementManagerKnightTest {
 	
 	@Test
 	void knightCheckMoveCaptureTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
@@ -97,6 +103,8 @@ class StandardMovementManagerKnightTest {
 	
 	@Test
 	void knightMoveSingleTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
@@ -123,6 +131,8 @@ class StandardMovementManagerKnightTest {
 	
 	@Test
 	void knightMoveBlockedTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
@@ -156,6 +166,8 @@ class StandardMovementManagerKnightTest {
 	
 	@Test
 	void knightMoveCpautreTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();

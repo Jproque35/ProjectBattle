@@ -10,6 +10,8 @@ class StandardMovementManagerTest {
 
 	@Test
 	void checkMoveEmptyTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		MovementManager mm = gm.getMovementManager();
@@ -20,6 +22,8 @@ class StandardMovementManagerTest {
 	
 	@Test
 	void moveEmptyTest() {
+		
+		TestFunctions.resetManagers();
 
 		GameManager gm = new StandardGameManager();
 		MovementManager mm = gm.getMovementManager();

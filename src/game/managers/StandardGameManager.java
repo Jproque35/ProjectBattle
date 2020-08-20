@@ -25,7 +25,7 @@ public class StandardGameManager extends GameManager {
 	public StandardGameManager() {
 		
 		super();
-		pm = new StandardPieceManager();
+		pm = StandardPieceManager.getInstance();
 		bm = new StandardBoardManager(this);
 		
 		mm = new StandardMovementManager(this);
