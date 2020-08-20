@@ -17,7 +17,7 @@ class StandardMovementManagerQueenTest {
 	@Test
 	void queenCheckMoveSingleTest() {
 
-		GameManager gm = StandardGameManager.getInstance();
+		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -59,7 +59,7 @@ class StandardMovementManagerQueenTest {
 	@Test
 	void queenCheckMoveBlockedTest() {
 
-		GameManager gm = StandardGameManager.getInstance();
+		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -93,7 +93,7 @@ class StandardMovementManagerQueenTest {
 	@Test
 	void queenCheckMoveCaptureTest() {
 
-		GameManager gm = StandardGameManager.getInstance();
+		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();

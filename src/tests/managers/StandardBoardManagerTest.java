@@ -16,7 +16,7 @@ class StandardBoardManagerTest {
 	@Test()
 	void getLengthTest() {
 		
-		GameManager gm = StandardGameManager.getInstance();
+		GameManager gm = new StandardGameManager();
 		BoardManager bm = gm.getBoardManager();
 		
 		assertEquals(8, bm.getLength());
@@ -26,7 +26,7 @@ class StandardBoardManagerTest {
 	@Test()
 	void getLWidthTest() {
 		
-		GameManager gm = StandardGameManager.getInstance();
+		GameManager gm = new StandardGameManager();
 		BoardManager bm = gm.getBoardManager();
 		
 		assertEquals(8, bm.getWidth());
@@ -36,7 +36,7 @@ class StandardBoardManagerTest {
 	@Test
 	void containsEmpty() {
 		
-		GameManager gm = StandardGameManager.getInstance();
+		GameManager gm = new StandardGameManager();
 		BoardManager bm = gm.getBoardManager();
 		
 		assertEquals(false, bm.contains("Corrin"));
@@ -46,7 +46,7 @@ class StandardBoardManagerTest {
 	@Test
 	void getEmptyTes() {
 		
-		GameManager gm = StandardGameManager.getInstance();
+		GameManager gm = new StandardGameManager();
 		BoardManager bm = gm.getBoardManager();
 		
 		assertEquals(null, bm.get(0, 0));
@@ -56,7 +56,7 @@ class StandardBoardManagerTest {
 	@Test
 	void removeEmptyTest() {
 		
-		GameManager gm = StandardGameManager.getInstance();
+		GameManager gm = new StandardGameManager();
 		BoardManager bm = gm.getBoardManager();
 		
 		assertEquals(null, bm.remove(0, 0));
@@ -66,7 +66,7 @@ class StandardBoardManagerTest {
 	@Test
 	void addNotInPieceManagerTest() {
 		
-		GameManager gm = StandardGameManager.getInstance();
+		GameManager gm = new StandardGameManager();
 		BoardManager bm = gm.getBoardManager();
 		
 		bm.add("Corrin", 0, 0);
@@ -78,7 +78,7 @@ class StandardBoardManagerTest {
 	@Test
 	void addSingleTest() {
 		
-		GameManager gm = StandardGameManager.getInstance();
+		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		
@@ -95,7 +95,7 @@ class StandardBoardManagerTest {
 	@Test
 	void getSingleTest() {
 		
-		GameManager gm = StandardGameManager.getInstance();
+		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		
@@ -107,7 +107,7 @@ class StandardBoardManagerTest {
 	@Test
 	void removeSingleTest() {
 		
-		GameManager gm = StandardGameManager.getInstance();
+		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		
@@ -122,7 +122,7 @@ class StandardBoardManagerTest {
 	@Test
 	void updatePositionSingleTest() {
 		
-		GameManager gm = StandardGameManager.getInstance();
+		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		
@@ -139,7 +139,7 @@ class StandardBoardManagerTest {
 	@Test
 	void updatePositionOverriteTest() {
 		
-		GameManager gm = StandardGameManager.getInstance();
+		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		
@@ -160,7 +160,7 @@ class StandardBoardManagerTest {
 	@Test
 	void removeEnPassantTest() {
 		
-		GameManager gm = StandardGameManager.getInstance();
+		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		

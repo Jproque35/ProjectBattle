@@ -8,7 +8,7 @@ public class StandardMovementManagerManualTest {
 
 	public static void main(String[] args) {
 
-		GameManager gm = StandardGameManager.getInstance();
+		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();

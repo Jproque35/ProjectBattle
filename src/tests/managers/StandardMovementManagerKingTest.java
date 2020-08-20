@@ -17,7 +17,7 @@ class StandardMovementManagerKingTest {
 	@Test
 	void kingCheckMoveSingleTest() {
 
-		GameManager gm = StandardGameManager.getInstance();
+		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -40,7 +40,7 @@ class StandardMovementManagerKingTest {
 	@Test
 	void kingChekcMoveBlockedTest() {
 
-		GameManager gm = StandardGameManager.getInstance();
+		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -60,7 +60,7 @@ class StandardMovementManagerKingTest {
 	@Test
 	void kingCheckMoveCaptureTest() {
 
-		GameManager gm = StandardGameManager.getInstance();
+		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -79,7 +79,7 @@ class StandardMovementManagerKingTest {
 	@Test
 	void kingMoveSingleTest() {
 
-		GameManager gm = StandardGameManager.getInstance();
+		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -105,7 +105,7 @@ class StandardMovementManagerKingTest {
 	@Test
 	void kingMoveBlockedTest() {
 
-		GameManager gm = StandardGameManager.getInstance();
+		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();
@@ -127,7 +127,7 @@ class StandardMovementManagerKingTest {
 	@Test
 	void kingMoveCpatureTest() {
 
-		GameManager gm = StandardGameManager.getInstance();
+		GameManager gm = new StandardGameManager();
 		PieceManager pm = gm.getPieceManager();
 		BoardManager bm = gm.getBoardManager();
 		MovementManager mm = gm.getMovementManager();

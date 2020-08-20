@@ -22,7 +22,7 @@ public class StandardGameManager extends GameManager {
 		
 	}
 	
-	private StandardGameManager() {
+	public StandardGameManager() {
 		
 		super();
 		pm = new StandardPieceManager();
